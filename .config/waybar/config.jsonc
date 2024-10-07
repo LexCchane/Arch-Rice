@@ -1,0 +1,31 @@
+
+
+{
+  "include": "~/.config/waybar/modules",
+  "layer": "top",
+  "position": "top",
+  "height": 10,
+  "margin-left": 10,
+  "margin-right": 10,
+  "margin-top": 5,
+
+  "modules-left": [
+    "custom/separator#blank",
+    "group/custom",
+    "hyprland/window"
+  ],
+
+  "modules-center": [
+  "hyprland/workspaces#roman",
+  ],
+
+  "modules-right": [
+    "group/hardware",
+    "clock",
+    "tray",
+  ],
+
+
+  // Additional format / customize modules
+
+}
